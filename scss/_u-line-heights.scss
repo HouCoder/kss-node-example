@@ -1,0 +1,33 @@
+// Line-heights
+//
+// Line-heights
+//
+// Markup: _u-line-heights.html
+//
+// .u-line-height--basic        - Display basic size line height.
+// .u-line-height--m            - Display middle size line height.
+// .u-line-height--l            - Display large line height.
+// .u-line-height--xl           - Display extra large line height.
+// .u-line-height--xxl          - Display extra extra large line height.
+//
+// Style guide: CSS.Line-heights
+
+.u-line-height--basic {
+    line-height: $height-basic;
+}
+
+.u-line-height--m {
+    line-height: $height-m;
+}
+
+.u-line-height--l {
+    line-height: $height-l;
+}
+
+.u-line-height--xl {
+    line-height: $height-xl;
+}
+
+.u-line-height--xxl {
+    line-height: $height-xxl;
+}

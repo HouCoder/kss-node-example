@@ -1,0 +1,21 @@
+// Headings
+//
+// Heading UI specifications
+//
+// Markup: _headings.html
+//
+// Style guide: CSS.Headings
+
+// TODO: This move element style to global.scss, and move .u-size-* to `u-heading`.
+
+@each $title, $size in $titles-font-size {
+    #{ $title },
+    .u-size-#{ $title }
+    {
+        font-size: $size;
+
+        // Resetting margin and padding to 0.
+        margin: 0;
+        padding: 0;
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "//": "The source and destination paths are relative to this file.",
+  "source": "scss",
+
+  "//": "The css and js paths are URLs relative to the style guide destination.",
+  "css": [
+    "css/style-guide.css"
+  ],
+
+  "//": "https//github.com/kss-node/kss-node/issues/349#issuecomment-241226625",
+  "homepage": "homepage.md",
+
+  "title": "kss-node example"
+}

@@ -1,0 +1,24 @@
+// Resetting styles
+
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+p,
+fieldset,
+figure
+{
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+// global - forms
+fieldset {
+    border: 0;
+}
